@@ -1,0 +1,5 @@
+name,titles,description,datatype
+name,Назва міста,"Назва обласного центру, який розміщений на річці Дніпро.",string
+population,Кількість населення,"Кількість населення, осіб за даними https://uk.wikipedia.org/.",double
+area,Площа міста,"Площа міста, кв. км за даними https://uk.wikipedia.org/.",double
+populationDensity,Густота населення,"Густота населення, осіб на кв. км. за даними https://uk.wikipedia.org/.",double

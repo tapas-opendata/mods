@@ -1,0 +1,37 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw",
+    {
+      "@language": "uk"
+    }
+  ],
+  "url": "cities.csv",
+  "tableSchema": {
+    "columns": [
+      {
+        "name": "name",
+        "titles": "Назва міста",
+        "dc:description": "Назва обласного центру, який розміщений на річці Дніпро.",
+        "datatype": "string"
+      },
+      {
+        "name": "population",
+        "titles": "Кількість населення",
+        "dc:description": "Кількість населення",
+        "datatype": "осіб за даними https://uk.wikipedia.org/."
+      },
+      {
+        "name": "area",
+        "titles": "Площа міста",
+        "dc:description": "Площа міста, кв. км за даними https://uk.wikipedia.org/.",
+        "datatype": "double"
+      },
+      {
+        "name": "populationDensity",
+        "titles": "Густота населення",
+        "dc:description": "Густота населення, осіб на кв. км. за даними https://uk.wikipedia.org/.",
+        "datatype": "double"
+      }
+    ]
+  }
+}
