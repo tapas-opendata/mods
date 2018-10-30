@@ -31,7 +31,7 @@
 		Запоріжжя,743113,331,2245.1
 		Херсон,291428,145,2009.8
 
-Вести таблиці необхідно у Microsoft Excel, Google Таблицях, LibreOffice Calc, а зберігати - у форматах XLS, XLSX, ODS або CSV. Категорично не рекомендується використовувати Microsoft Word, Google Документи, LibreOffice Writer тощо, та зберігати таблиці у форматах DOC, DOCX, ODT, RTF, PDF, HTML. Детальніше про роботу з такблицями можна дізнатися за посиланнями: :download:`Відкриті дані: формати та правила створення (Texty.org.ua, 2017) <_assets/FormatsAndRules.pdf>`, `Організація даних у таблицях (К. Броман, К. Ву, 2018) <http://texty.org.ua/pg/book/Oximets/read/87136?a_offset=>`_.
+Вести таблиці необхідно у Microsoft Excel, Google Таблицях, LibreOffice Calc, а зберігати - у форматах XLS, XLSX, ODS або CSV. Категорично не рекомендується використовувати Microsoft Word, Google Документи, LibreOffice Writer тощо, та зберігати таблиці у форматах DOC, DOCX, ODT, RTF, PDF, HTML. Детальніше про роботу з таблицями можна дізнатися за посиланнями: :download:`Відкриті дані: формати та правила створення (Texty.org.ua, 2017) <_assets/FormatsAndRules.pdf>`, `Організація даних у таблицях (К. Броман, К. Ву, 2018) <http://texty.org.ua/pg/book/Oximets/read/87136?a_offset=>`_.
 
 
 Шапка таблиці
@@ -69,7 +69,7 @@
 		area,Площа міста,"Площа міста, кв. км за даними https://uk.wikipedia.org/.",integer
 		populationDensity,Густота населення,"Густота населення, осіб на кв. км. за даними https://uk.wikipedia.org/.",decimal
 
-Структура оприлюднюються, як окремий ресурс набору даних. Напиклад, набір даних "Перелік обласних центрів, що розміщені на річці Дніпро" включатиме ресурси :download:`Cities.csv <_assets/Cities.csv>` та :download:`CitiesStructure.csv <_assets/CitiesStructure.csv>`. Якщо розпорядники володіють навичками створення JSON-файлів, структуру набору даних можна передставити відповідно до рекомендацій W3C `"Model for Tabular Data and Metadata on the Web" <https://www.w3.org/TR/tabular-data-model/>`_ або `Table Schema <https://frictionlessdata.io/specs/table-schema/>`_ від `Frictionless Data <https://frictionlessdata.io>`_. Наприклад, :download:`CitiesStructure.json <_assets/CitiesStructure.json>`.
+Структура оприлюднюються, як окремий ресурс набору даних. Наприклад, набір даних "Перелік обласних центрів, що розміщені на річці Дніпро" включатиме ресурси :download:`Cities.csv <_assets/Cities.csv>` та :download:`CitiesStructure.csv <_assets/CitiesStructure.csv>`. Якщо розпорядники володіють навичками створення JSON-файлів, структуру набору даних можна передставити відповідно до рекомендацій W3C `"Model for Tabular Data and Metadata on the Web" <https://www.w3.org/TR/tabular-data-model/>`_ або `Table Schema <https://frictionlessdata.io/specs/table-schema/>`_ від `Frictionless Data <https://frictionlessdata.io>`_. Наприклад, :download:`CitiesStructure.json <_assets/CitiesStructure.json>`.
 
 
 Довідник структур
